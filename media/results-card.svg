@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 452" role="img" aria-label="3GPP-RAG reproduced-failure evaluation results">
+  <title>3GPP-RAG — Reproduced-Failure Evaluation (local LLM run)</title>
+  <desc>19 reproduced 5G NAS failures scored with a local LLM: correct 3GPP spec cited 18/19 (94%), zero hallucinated citations, retrieval health PASS 19/19.</desc>
+  <rect x="1" y="1" width="818" height="450" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="40" y="60" font-family="Segoe UI, system-ui, sans-serif" font-size="29" font-weight="700" fill="#0d1117">3GPP-RAG &#8212; Reproduced-Failure Evaluation</text>
+  <text x="40" y="92" font-family="Segoe UI, system-ui, sans-serif" font-size="16.5" fill="#57606a">19 real 5G NAS failures &#183; local LLM (qwen2.5-14b) &#183; OpenAirInterface + UERANSIM / Open5GS</text>
+  <line x1="40" y1="114" x2="780" y2="114" stroke="#eaecef" stroke-width="2"/>
+
+  <rect x="40" y="150" width="230" height="180" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="155" y="240" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="52" font-weight="800" fill="#1a7f37">18/19</text>
+  <text x="155" y="274" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="16" fill="#24292f">Correct 3GPP spec cited</text>
+  <text x="155" y="299" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1a7f37">94%</text>
+
+  <rect x="295" y="150" width="230" height="180" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="410" y="240" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="52" font-weight="800" fill="#0969da">0</text>
+  <text x="410" y="274" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="16" fill="#24292f">Hallucinated citations</text>
+  <text x="410" y="299" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="700" fill="#0969da">audited vs retrieved text</text>
+
+  <rect x="550" y="150" width="230" height="180" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="665" y="240" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="52" font-weight="800" fill="#1a7f37">19/19</text>
+  <text x="665" y="274" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="16" fill="#24292f">Retrieval health &#8805; 75</text>
+  <text x="665" y="299" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1a7f37">PASS (100%)</text>
+
+  <text x="40" y="368" font-family="Segoe UI, system-ui, sans-serif" font-size="13.5" fill="#57606a">Local BM25 over 190+ 3GPP specs (~600k chunks) &#183; 100% offline &#183; every citation audited &#183; exact cause-clause precision: in progress</text>
+  <text x="40" y="398" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#57606a">Author: sureshramadolla &#183; local, offline run &#183; 2026</text>
+  <text x="40" y="424" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5" fill="#8c959f">Early evaluation set &#183; spec clause text omitted (copyright)</text>
+</svg>

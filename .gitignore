@@ -1,0 +1,40 @@
+# ============================================================================
+#  Never commit data, indexes, logs, models, or subscriber content.
+#  This repository ships CODE and DOCS only — no 3GPP spec text, no captures.
+# ============================================================================
+
+# --- spec index & any database (would contain copyrighted 3GPP text) ---
+*.db
+*.db-shm
+*.db-wal
+data/
+**/spec_index*
+
+# --- captured logs / traces / decodes ---
+logs/
+Logs_*/
+**/_FAILURE_TESTS/logs*/
+**/pcaps/
+*.pcap
+*.pcapng
+*.log
+*.dat
+
+# --- site-specific / sensitive config ---
+vendor_terms.txt
+*.env
+.env
+
+# --- large media working files (commit only the finished shots you choose) ---
+media/*.mp4
+media/*.mov
+media/*.raw
+
+# --- python / os cruft ---
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+.venv/
+venv/

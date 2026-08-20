@@ -1,0 +1,8 @@
+id=TC-5GMM-011-plmn-not-allowed
+layer=L3
+protocol=NAS-5GMM
+expected_cause=#11 PLMN not allowed
+expected_ts=24.501
+expected_clause=9.11.3.2
+gate_signature=(?i)(5gmm|nas-5gs).*cause.*(11|0x0b)
+benign=False
