@@ -217,7 +217,7 @@ Retrieval-health score (PASS / FLAG), grounded analysis, and full citation audit
 
 ## Installation & Local Setup
 
-> For reference only " full scripts ship with the **private source** (available on request). This showcase repo contains **documentation and results only**.
+> For reference only " full scripts ship with the **private source** (
 
 ### Prerequisites
 
