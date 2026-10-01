@@ -1,6 +1,6 @@
 # ============================================================================
 #  Never commit data, indexes, logs, models, or subscriber content.
-#  This repository ships CODE and DOCS only — no 3GPP spec text, no captures.
+#  This repository ships CODE and DOCS only - no 3GPP spec text, no captures.
 # ============================================================================
 
 # --- spec index & any database (would contain copyrighted 3GPP text) ---
